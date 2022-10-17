@@ -1,0 +1,210 @@
+:root {
+    --whitebg: #fff;
+    --easyred: #d9251d;
+    --easyyellow: #ffdc00;
+    --easydeepred: #7e030c;
+    --easydeepyellow: #caaf02;
+    --blackbg: #000;
+    --easyredopacity: rgba(220, 36, 31, 0.5);
+    --easyyellowopacity: rgba(255, 220, 0, 0.3);
+    --easyblackopacity: rgba(0, 0, 0, 0.5);
+}
+
+.top_header_paragraph {
+    margin-bottom: 0px;
+}
+#header div.header-top {
+    background-color: var(--easyred);
+    padding: 0.5rem 0rem;
+}
+header#header .header-top .element:not(.styled-icons) a:not(.btn):not(.styled-icons-item):not(.wp-block-button__link):not(.wp-block-button__link):not(.dropdown-item) {
+    color: #000;
+}
+.icon-theme-colored1.icon-dark a {
+    background-color: var(--whitebg);
+    /**color: #fff;**/
+}
+header#header .header-top .element:not(.styled-icons) a:not(.btn):not(.styled-icons-item):not(.wp-block-button__link):not(.wp-block-button__link):not(.dropdown-item):hover {
+    color: var(--easydeepred);
+}
+.icon-theme-colored1.icon-dark a:hover {
+    background-color: #fff;
+}
+ul.custom_styled-icons a {
+    font-size: 15px;
+    height: 30px;
+    width: 30px;
+    top: 4px;
+}
+ul.custom_styled-icons a i {
+    position: relative;
+    top: -2px;
+}
+.btn-theme-colored2 {
+    color: var(--blackbg);
+    background-color: var(--whitebg);
+    /**border-color: #fff;**/
+}
+.btn-theme-colored1 {
+    color: var(--whitebg);
+    background-color: var(--easyred);
+}
+.login:hover {
+    background-color: var(--whitebg);
+    color: var(--easydeepred);
+}
+header#header .header-top .element .btn {
+    vertical-align: middle;
+    font-size: 15px;
+}
+.about_us_homepage {
+    margin-top: 40px;
+}
+.btn-theme-colored1:hover {
+    color: var(--easyred);
+    background-color: var(--whitebg);
+    border: 1px solid var(--easyred);
+  }
+.short-bio {
+    color: #fff;
+}
+.products_title_wrapper {
+    /**margin-top: 20px;**/
+    padding-top: 30px;
+}
+/**.mission_homepage::after {
+    content: '-';
+    display: inline-block;
+    color: var(--easydeepyellow);
+    width: 50%;
+}**/
+.others {
+    padding: 10px !important;
+}
+.product_name {
+    color: #000 !important;
+}
+h4.title {
+    font-size: 2rem !important;
+}
+.bg-white-f5 > .others_container, section > .others_container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+} 
+.icons_footer {
+    color: #000;
+}
+.custom_styled-icons_footer_list {
+    margin: 5px 0;
+}
+.footer-paragraph {
+    text-align: center;
+}
+.team_div {
+    width: 50%;
+    margin: auto;
+}
+.other_team {
+    margin-top: 50px;
+}
+div.team_div > img {
+    border-radius: 50%;
+}
+.search_field {
+    font-size: 20px;
+}
+.location_search {
+    margin: 0px 0px 20px;
+}
+.login_text {
+    font-size: 2rem !important;
+}
+.btn_login {
+    background-color: var(--easyred);
+    color: var(--whitebg);
+    padding: 0.5rem 2rem;
+}
+.btn_login:hover {
+    color: var(--easyred);
+    background-color: var(--whitebg);
+}
+.btn_login_social {
+    border: 1px #fff solid;
+    color: var(--whitebg);
+    display: block;
+    margin: 0.7rem 0;
+}
+.sign_up_btn, .fg_password {
+    text-align: center;
+}
+.sign_up_btn > a {
+    color: var(--easyred) !important;
+    text-decoration: underline;
+}
+.sign_up_btn > a:hover {
+    color: var(--blackbg) !important;
+}
+.login_logo {
+    margin: 60px 0 20px !important;
+} 
+.sign_up_btn {
+    margin-bottom: 2rem;
+}
+.coupon_btn {
+    margin-top: 1rem !important;
+}
+
+/** Mobile View CSS **/
+@media (max-width: 991.98px) {
+    .hidden_onMobile {
+        display: none;
+    }
+    .header-top {
+        display: none;
+    }
+    header#header.header-layout-type-header-3rows .header-middle {
+        padding: 0px;
+      }
+    header#header.header-layout-type-header-3rows .menuzord-brand {
+        margin-bottom: 0px;
+    }
+    .btn_mobile {
+        padding: 0.2rem 1rem;
+    }
+    .login_text {
+        text-align: center;
+    }
+    .login_logo {
+        margin: 40px 0 40px;
+    }
+    .login_btn_mobile {
+        text-align: center;
+    }
+    .fg_password_mobile {
+        text-align: center;
+    }
+    .social_media_login_mobile {
+        text-align: center;
+    }
+    .mobile_space {
+        margin-bottom: 20px;
+    }
+    .sign_up_btn {
+        margin-bottom: 30px;
+    }
+    
+}
+@media (max-width: 767px) {
+    .h3_mobile {
+        font-size: 1.2em;
+    }
+    #visit_btn {
+        text-align: center;
+    }
+    .visit_store_mobile .pb-20 {
+        padding-bottom: 10px !important;
+    }
+    .visit_store_mobile .pt-30 {
+        padding-top: 5px !important;
+    }
+}
